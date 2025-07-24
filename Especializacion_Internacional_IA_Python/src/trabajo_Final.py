@@ -16,7 +16,7 @@ recall y f1 score, con un enfoque profesional para que sea comprensible para cua
 """
 
 # -------------------------------
-# 1️⃣ Librerías necesarias
+#  Librerías necesarias
 # -------------------------------
 
 # En esta sección importo las librerías necesarias para manipular datos, visualizar gráficas y crear los modelos.
@@ -38,7 +38,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 
 # -------------------------------
-# 2️⃣ Análisis inicial de los datos
+#  Análisis inicial de los datos
 # -------------------------------
 
 # Cargué el dataset proporcionado por Bob
@@ -59,7 +59,7 @@ plt.show()
 
 
 # --------------------------------
-# 3️⃣ Escalado de la variable objetivo (price_range)
+#  Escalado de la variable objetivo (price_range)
 # --------------------------------
 
 # Aquí aplico distintos métodos de escalado para visualizar cómo afectan a la variable 'price_range'.
@@ -107,7 +107,7 @@ plt.show()
 
 
 # -------------------------------
-# 4️⃣ Selección de variables predictoras
+#  Selección de variables predictoras
 # -------------------------------
 
 # Separo las variables independientes (X) de la variable objetivo (y)
@@ -124,7 +124,7 @@ rf_select.fit(x_train, y_train)
 
 
 # -------------------------------
-# 5️⃣ Árbol de Decisión
+#  Árbol de Decisión
 # -------------------------------
 
 # Normalizo todas las variables para este modelo
@@ -167,7 +167,7 @@ plt.show()
 
 
 # -------------------------------
-# 6️⃣ Red Neuronal usando MLPClassifier de sklearn
+#  Red Neuronal usando MLPClassifier de sklearn
 # -------------------------------
 
 # Configuro una red neuronal simple con 2 capas ocultas
@@ -189,7 +189,7 @@ plt.show()
 
 
 # -------------------------------
-# 7️⃣ Comparación de Resultados (Árbol vs Red Neuronal)
+#  Comparación de Resultados (Árbol vs Red Neuronal)
 # -------------------------------
 
 # Comparo la precisión (Accuracy) de ambos modelos
@@ -211,7 +211,7 @@ print(mlp_df)
 
 
 # -------------------------------
-# 8️⃣ Conclusión del Caso
+#  Conclusión del Caso
 # -------------------------------
 
 """
