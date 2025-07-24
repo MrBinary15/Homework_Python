@@ -1,7 +1,7 @@
 # ============== Trabajo final Python ===============
 # Especialización Internacional de Inteligencia Artificial con Python.
 # CASO DE ESTUDIO: Estimación del rango de precios de móviles mediante Machine Learning.
-
+#? Nombre: Arturo Fernando Parra Pico
 """
 CASO:
 Bob ha iniciado su empresa de telefonía móvil. Quiere competir con marcas grandes como Apple y Samsung,
